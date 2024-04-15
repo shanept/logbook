@@ -52,10 +52,9 @@ final class Admin
 	}
 
 	public function admin_menu() {
-		add_submenu_page(
-			null,
+		add_menu_page(
 			'Log',
-			null,
+			'Log',
 			'edit_pages',
 			'logbook',
 			function () {
